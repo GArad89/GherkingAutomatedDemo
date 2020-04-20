@@ -35,3 +35,8 @@ Feature:BackgroundGT update for Guy
     Given there are 12 cucumbers
     When I eat 5 cucumbers
     Then I should have 7 cucumbers
+
+  Scenario: Eat 8 out of 12
+    Given there are 12 cucumbers
+    When I eat 8 cucumbers
+    Then I should have 4 cucumbers
