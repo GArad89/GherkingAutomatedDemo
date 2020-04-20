@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.105463">
+<testcase classname="Test Background Feature no fail" name="This is an Orange scenario" time="0.103103">
+<failure message="java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;0&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:743)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:555)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:542)&#13;&#10;&#9;at MyStepdefs.iShouldBeLoggedIn(MyStepdefs.java:50)&#13;&#10;&#9;at ✽.Then I should be logged in(GT1-1126.feature:8)&#13;&#10;"><![CDATA[Given some no failed given..................................................passed
+When I submit username and password.........................................passed
+Then I should be logged in..................................................failed
+Given Two oranges...........................................................skipped
+When One orange is eaten....................................................skipped
+Then One orange is left.....................................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<5> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at MyStepdefs.iShouldBeLoggedIn(MyStepdefs.java:50)
+	at ✽.Then I should be logged in(GT1-1126.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="This is an Orange feature" name="This is an Orange scenario" time="0.000084">
+<system-out><![CDATA[Given Two oranges...........................................................passed
+When One orange is eaten....................................................passed
+Then One orange is left.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Filter tablets in OnlineShopping" name="Filter by price" time="0.002276">
+<system-out><![CDATA[Given I'm in tablets search results.........................................passed
+When filter by price lower than 1000........................................passed
+Then Only tablets with lower price will be presented Only tablets with lower price will be presented Only tablets with lower price will be presented.passed
+]]></system-out>
+</testcase>
+</testsuite>

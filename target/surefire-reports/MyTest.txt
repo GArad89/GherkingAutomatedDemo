@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: MyTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 6, Errors: 0, Skipped: 1, Time elapsed: 0.565 sec <<< FAILURE!
+Background Step + Scenario Outline(BackgroundGT update for Guy)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<303> but was:<36>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.backgroundThen(MyStepdefs.java:44)
+	at ?.Background then(src/test/resources/features/Background.feature:10)
+
+Background Step + Scenario Outline(BackgroundGT update for Guy)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<303> but was:<36>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.backgroundThen(MyStepdefs.java:44)
+	at ?.Background then(src/test/resources/features/Background.feature:10)
+
+Wilson posts to his own blog(BackgroundGT update for Guy)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<303> but was:<36>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.backgroundThen(MyStepdefs.java:44)
+	at ?.Background then(src/test/resources/features/Background.feature:10)
+
+Buy last coffee(BackgroundGT update for Guy)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<303> but was:<36>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.backgroundThen(MyStepdefs.java:44)
+	at ?.Background then(src/test/resources/features/Background.feature:10)
+
+Eat 5 out of 12(BackgroundGT update for Guy)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<303> but was:<36>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.backgroundThen(MyStepdefs.java:44)
+	at ?.Background then(src/test/resources/features/Background.feature:10)
+
+Check the text(ButtonsGT)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<7777> but was:<14>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.thereIsATEST(MyStepdefs.java:249)
+	at ?.there is a TEST(src/test/resources/features/ButtonsGT.feature:12)
+

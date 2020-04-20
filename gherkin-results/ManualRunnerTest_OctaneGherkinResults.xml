@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features version="1"><feature name="BackgroundGT update for Guy" path="src\test\resources\features\Background.feature" started="1584957699557" tag="@TID1004REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1004REV0.2.0
+#@exclude
+Feature:BackgroundGT update for Guy
+
+  Background: User is Logged In
+    Given Background given
+    When Background when
+    And Background and
+    Then Background then
+
+  Scenario Outline: Background Step + Scenario Outline
+    Given <username> and <password> are known
+    When the credentials are written
+    And the Login button is clicked
+    Then The login is successful
+
+    Examples:
+      | username | password |
+      | a        | 1        |
+      | b        | 2        |
+
+  Scenario: Wilson posts to his own blog
+    Given I am logged in as Wilson
+    When I try to post to "Expensive Therapy"
+    Then I should see "Your article was published".
+
+  Scenario: Buy last coffee
+    Given there are 1 coffees left in the machine
+    And I have deposited 1 dollar
+    When I press the coffee button
+    Then I should be served a coffee
+
+  Scenario: Eat 5 out of 12
+    Given there are 12 cucumbers
+    When I eat 5 cucumbers
+    Then I should have 7 cucumbers
+]]></file><scenarios><scenario name="Background Step + Scenario Outline" outlineIndex="1"><steps><step duration="517287" name="Given Background given" status="passed"/><step duration="18879" name="When Background when" status="passed"/><step duration="9439" name="And Background and" status="passed"/><step duration="3240404" name="Then Background then" status="failed"><error_message><![CDATA[java.lang.AssertionError: expected:<303> but was:<36>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.backgroundThen(MyStepdefs.java:44)
+	at ✽.Background then(src/test/resources/features/Background.feature:10)
+]]></error_message></step><step duration="12082" name="Given a and 1 are known" status="skipped"/><step duration="4531" name="When the credentials are written" status="skipped"/><step duration="3776" name="And the Login button is clicked" status="skipped"/><step duration="3398" name="Then The login is successful" status="skipped"/></steps></scenario><scenario name="Background Step + Scenario Outline" outlineIndex="2"><steps><step duration="50596" name="Given Background given" status="passed"/><step duration="11705" name="When Background when" status="passed"/><step duration="7929" name="And Background and" status="passed"/><step duration="133287" name="Then Background then" status="failed"><error_message><![CDATA[java.lang.AssertionError: expected:<303> but was:<36>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.backgroundThen(MyStepdefs.java:44)
+	at ✽.Background then(src/test/resources/features/Background.feature:10)
+]]></error_message></step><step duration="3776" name="Given b and 2 are known" status="skipped"/><step duration="3776" name="When the credentials are written" status="skipped"/><step duration="3776" name="And the Login button is clicked" status="skipped"/><step duration="3398" name="Then The login is successful" status="skipped"/></steps></scenario><scenario name="Wilson posts to his own blog"><steps><step duration="49086" name="Given Background given" status="passed"/><step duration="8684" name="When Background when" status="passed"/><step duration="6796" name="And Background and" status="passed"/><step duration="143859" name="Then Background then" status="failed"><error_message><![CDATA[java.lang.AssertionError: expected:<303> but was:<36>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.backgroundThen(MyStepdefs.java:44)
+	at ✽.Background then(src/test/resources/features/Background.feature:10)
+]]></error_message></step><step duration="3398" name="Given I am logged in as Wilson" status="skipped"/><step duration="3776" name="When I try to post to &quot;Expensive Therapy&quot;" status="skipped"/><step duration="3399" name="Then I should see &quot;Your article was published&quot;." status="skipped"/></steps></scenario><scenario name="Buy last coffee"><steps><step duration="46820" name="Given Background given" status="passed"/><step duration="9061" name="When Background when" status="passed"/><step duration="11705" name="And Background and" status="passed"/><step duration="189924" name="Then Background then" status="failed"><error_message><![CDATA[java.lang.AssertionError: expected:<303> but was:<36>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.backgroundThen(MyStepdefs.java:44)
+	at ✽.Background then(src/test/resources/features/Background.feature:10)
+]]></error_message></step><step duration="6042" name="Given there are 1 coffees left in the machine" status="skipped"/><step duration="3398" name="And I have deposited 1 dollar" status="skipped"/><step duration="3398" name="When I press the coffee button" status="skipped"/><step duration="3398" name="Then I should be served a coffee" status="skipped"/></steps></scenario><scenario name="Eat 5 out of 12"><steps><step duration="24165" name="Given Background given" status="passed"/><step duration="7929" name="When Background when" status="passed"/><step duration="6419" name="And Background and" status="passed"/><step duration="107989" name="Then Background then" status="failed"><error_message><![CDATA[java.lang.AssertionError: expected:<303> but was:<36>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.backgroundThen(MyStepdefs.java:44)
+	at ✽.Background then(src/test/resources/features/Background.feature:10)
+]]></error_message></step><step duration="3398" name="Given there are 12 cucumbers" status="skipped"/><step duration="3398" name="When I eat 5 cucumbers" status="skipped"/><step duration="3398" name="Then I should have 7 cucumbers" status="skipped"/></steps></scenario></scenarios></feature><feature name="ButtonsGT" path="src\test\resources\features\ButtonsGT.feature" started="1584957699562" tag="@TID1002REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1002REV0.2.0
+#@exclude
+Feature: ButtonsGT
+  Scenario: Check the buttons
+    Given there is a GTuiu
+    When the user modifies the script from IDE and runs the Pipeline
+    Then the buttons should appear in Octane
+
+  #@exclude
+  Scenario: Check the text
+    Given there is a TEST
+    When the user modifies the SCRIPT
+    Then the buttons should APPEAR]]></file><scenarios><scenario name="Check the buttons"><steps><step duration="0" name="Given there is a GTuiu" status="undefined"/><step duration="4531" name="When the user modifies the script from IDE and runs the Pipeline" status="skipped"/><step duration="3775" name="Then the buttons should appear in Octane" status="skipped"/></steps></scenario><scenario name="Check the text"><steps><step duration="260909" name="Given there is a TEST" status="failed"><error_message><![CDATA[java.lang.AssertionError: expected:<7777> but was:<14>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.thereIsATEST(MyStepdefs.java:249)
+	at ✽.there is a TEST(src/test/resources/features/ButtonsGT.feature:12)
+]]></error_message></step><step duration="3775" name="When the user modifies the SCRIPT" status="skipped"/><step duration="3776" name="Then the buttons should APPEAR" status="skipped"/></steps></scenario></scenarios></feature><feature name="CommentsGT" path="src\test\resources\features\CommentsGT.feature" started="1584957699562" tag="@TID1009REV0.9.2"><file><![CDATA[#Auto generated Octane revision tag
+@TID1009REV0.9.2
+#@exclude
+Feature: CommentsGT
+#This is the scenario comment
+  Scenario: Open Feature Dialog in Octane2 - updated
+    #This is the Given comment
+    Given the following users exist
+    #This is the But comment
+    But Clicking the Create New requirement
+     #This is the And comment
+    And Clicking the Create New defect
+     #This is the When comment
+    When Clicking the New Feature
+    Then I should receive an email with
+]]></file><scenarios><scenario name="Open Feature Dialog in Octane2 - updated"><steps><step duration="43044" name="Given the following users exist" status="passed"/><step duration="15859" name="But Clicking the Create New requirement" status="passed"/><step duration="13970" name="And Clicking the Create New defect" status="passed"/><step duration="8307" name="When Clicking the New Feature" status="passed"/><step duration="7174" name="Then I should receive an email with" status="passed"/></steps></scenario></scenarios></feature></features>
