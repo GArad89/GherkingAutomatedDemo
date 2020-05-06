@@ -26,7 +26,7 @@ Feature:BackgroundGT update for Guy
     Then I should see "Your article was published".
 
   Scenario: Buy last coffee
-    Given there are 8 coffees left in the machine
+    Given there are 2 coffees left in the machine
     And I have deposited 1 dollar
     When I press the coffee button
     Then I should be served a coffee
