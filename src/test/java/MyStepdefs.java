@@ -42,7 +42,7 @@ public class MyStepdefs {
     @Then("Background then")
     public void backgroundThen() {
         
-       // assertEquals(303, Calcs.sum(33, 3));
+        assertEquals(303, Calcs.sum(33, 3));
 
     }
 
@@ -72,7 +72,6 @@ public class MyStepdefs {
 
     @Then("The login is successful")
     public void theLoginIsSuccessful() {
-        assertEquals(303, Calcs.sum(33, 3));
     }
 
     @Given("I am logged in as Wilson")
