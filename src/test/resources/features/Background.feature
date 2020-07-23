@@ -3,8 +3,8 @@
 #@exclude
 Feature:BackgroundGT update for Guy
 
-  Background: User is Logged In34343!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    Given Background given 232323
+  Background: User is Logged In
+    Given Background given
     When Background when
     And Background and
     Then Background then
