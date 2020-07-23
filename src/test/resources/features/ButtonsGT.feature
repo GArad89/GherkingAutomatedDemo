@@ -3,7 +3,7 @@
 #@exclude
 Feature: ButtonsGT
   Scenario: Check the buttons
-    Given there is a GTui@@@@@@ew@2222222222222222222222
+    Given there is a GTui@@@@@@ew
     When the user modifies the script from IDE and runs the Pipeline
     Then the buttons should appear in Octane
 
