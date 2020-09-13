@@ -4,7 +4,7 @@
 Feature:BackgroundGT update for Guy
 
   Background: User is Logged In
-    Given Background given stuff
+    Given Background given
     When Background when
     And Background and
     Then Background then
@@ -26,7 +26,7 @@ Feature:BackgroundGT update for Guy
     Then I should see "Your article was published".
 
   Scenario: Buy last coffee
-    Given there are 8 coffees left in the machine
+    Given there are 4 coffees left in the machine
     And I have deposited 1 dollar
     When I press the coffee button
     Then I should be served a coffee
