@@ -4,7 +4,7 @@
 Feature:BackgroundGT update for Guy
 
   Background: User is Logged In
-    Given Background given
+    Given Background given stuff
     When Background when
     And Background and
     Then Background then
