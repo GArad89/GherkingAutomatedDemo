@@ -16,10 +16,10 @@ public class MyStepdefs {
 
     }
 
-    @Then("the buttons should appear in Octane")
+    @Then("the buttons should appear in")
     public void theButtonsShouldAppearInOctane() {
         String result = "hello";
-        assertEquals(result.length(), 5556);
+        assertEquals(result.length(), 5);
 
     }
 
