@@ -4,7 +4,7 @@ Feature: CommentsGT
 #This is the scenario comment
   Scenario: Open Feature Dialog in Octane2 - updated
     #This is the Given comment
-    Given the following users exist and they like action movies
+    Given the following users exist and they like action movies222
     #This is the But comment
     But Clicking the Create New requirement
     When Clicking the New Feature
