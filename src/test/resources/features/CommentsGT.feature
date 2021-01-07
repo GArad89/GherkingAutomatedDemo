@@ -6,6 +6,6 @@ Feature: CommentsGT
     #This is the Given comment
     Given the following users exist and they like @111
     #This is the But comment
-    But Clicking the Create New requirement
+    But Clicking the Create New requirement 12121212
     When Clicking the New Feature
     Then I should receive an email with
